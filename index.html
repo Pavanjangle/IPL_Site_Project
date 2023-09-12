@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IplMenTeams</title>
+    <link rel="stylesheet" href="mentTeam.css">
+    <link rel="stylesheet" href="styling.css">
+
+</head>
+
+<body>
+    <div class="webContainer">
+        <div class="header">
+            <header class="headerItem">
+                <img id="ipllogo" src="ipl-logo-new-old.png" alt="">
+                <div id="search-container">
+                    <input type="text" id="search-input" placeholder="Enter player name">
+                    <button id="search-button">Search</button>
+                </div>
+                <div id="player-info"></div>
+                
+               
+
+
+            </header>
+
+        </div>
+
+        <div class="TeamMain">
+
+            <div class="tataSection">
+                <img src="teams-landing-logo.png" alt="">
+            </div>
+
+            <div class="teamsName">
+
+                <div onclick="CskClick" id="TmCsk" class="team"
+                    style="background: linear-gradient(rgb(238, 238, 3),rgb(5, 5, 0));border-radius: 10px; ">
+                    <div class="logpart">
+                        <!-- style="background:linear-gradient(180deg, #FCCA06 0%, #F25C19 100%);" -->
+                        <img id="cskoutlineimg" src="/teamOutline/CSKoutline.png" alt="">
+                    </div>
+                    <div class="textpart">
+
+                        <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                        <h4 id="titleYear">| 2010 | 2011 | 2018 | 2021 | 2023 |</h4>
+                          <a href="csk/csk.html" id="csktext">Chennai Super Kings</a>
+                        
+                        <!-- style="background: linear-gradient(133.55deg,#4d4d4f -30.17%,rgba(77,77,79,0) 117.73%);" -->
+                    </div>
+                </div>
+                <div id="TmMi" class="team"
+                    style="background: linear-gradient(rgb(12, 117, 152),rgb(3, 3, 43)); border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="MiOutline" src="/teamOutline/MIoutline.png" alt="">
+                    </div>
+                    <div class="textpart">
+                        <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                        <h4 id="titleYear">| 2013 | 2015 | 2017 | 2019 | 2020 |</h4>
+
+                        <a href="Mi/mi.html" id="csktext">Mumbai Indians</a>
+
+
+                    </div>
+                </div>
+
+                <div id="TmDc" class="team"
+                    style="background: linear-gradient(red,rgb(4, 4, 110)); border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="DCoutline" src="/teamOutline/DCoutline.png" alt="">
+                    </div>
+                    <div class="textpart"></div>
+                    <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                    <h4 id="titleYear">| NA |</h4>
+
+                    <a href="Delhi C/Delhi.html" id="csktext">Delhi Capitals</a>
+                </div>
+
+                <!-- 1 team -->
+
+                <div id="TmGt" class="team"
+                    style="background: linear-gradient(rgb(126, 198, 234),rgba(5, 5, 122, 0.988)); border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="MiOutline" src="/teamOutline/GToutline.png" alt="">
+
+                    </div>
+                    <div class="textpart">
+                        <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                        <h4 id="titleYear">| 2022 |</h4>
+                        <a href="Gujrat T/Gt.html" id="csktext">Gujrat Titans</a>
+                       
+                       
+                    </div>
+                </div>
+
+               <!-- 2 team -->
+
+                <div id="TmLsg" class="team"
+                    style="background: linear-gradient(white,rgb(23, 23, 176)); border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="LSGoutline" src="/teamOutline/LSGoutline.png" alt="">
+                    </div>
+                    <div class="textpart">
+                        <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                        <h4 id="titleYear">| NA |</h4>
+                        <a href="Luknow S G/LSG.html" id="csktext">Lucknow Super Giants</a>
+
+                    </div>
+                </div>
+
+                  <!-- 3 team -->
+
+
+                <div id="TmRcb" class="team"
+                    style="background: linear-gradient(rgba(119, 117, 117, 0.678),rgb(117, 23, 23)); border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="DCoutline" src="/teamOutline/RCBoutline.png" alt="">
+                    </div>
+                    <div class="textpart">
+                        <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                        
+                        <a href="Rajstan r/rajstan.html" id="csktext">Royal Challenger B</a>
+
+                    </div>
+                </div>
+
+                    <!-- 4 team -->
+
+                <div id="TmKkr" class="team"
+                    style="background: linear-gradient(rgba(182, 182, 64, 0.705),rgb(9, 9, 104)); border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="DCoutline" src="/teamOutline/KKRoutline.png" alt="">
+                    </div>
+                    <div class="textpart">
+                        <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                        <h4 id="titleYear">| 2012 | 2014 |</h4>
+                        <a href="Kolkata KR/Kolkata.html" id="csktext">Kolkata Knight Riders</a>
+
+                    </div>
+                </div>
+
+             <!-- 5 team -->
+
+
+                <div id="TmSrh" class="team"
+                    style="background: linear-gradient(orange,rgb(58, 39, 4)); border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="MiOutline" src="/teamOutline/SRHoutline.png" alt="">
+                    </div>
+                    <div class="textpart">
+                        <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                        <h4 id="titleYear">| 2016 |</h4>
+                        <a href="Sunriser H/Sunriser.html" id="csktext">Sunriser Hydrabad</a>
+
+                       
+                    </div>
+                </div>
+
+             <!-- 6 team -->
+
+                <div id="TmPbk" class="team"
+                    style="background: linear-gradient(rgb(244, 6, 6),rgb(9, 9, 83)); border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="MiOutline" src="/teamOutline/PBKSoutline (1).png" alt="">
+
+                    </div>
+                    <div class="textpart">
+                        <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                        <h4 id="titleYear">| NA |</h4>
+                        <a href="Panjab K/panjab.html" id="csktext">Punjab Kings</a>
+
+                    </div>
+                </div>
+
+                <!-- 7 team -->
+                <div id="TmRr" class="team" style="background: linear-gradient(pink,navy);border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="MiOutline" src="/teamOutline/RRoutline.png" alt="">
+                    </div>
+                    <div class="textpart">
+                        <img id="titleimg" src="/teamOutline/trophyOutline.png" alt="">
+                        <h4 id="titleYear">| 2008 |</h4>
+                        <a href="Rajstan r/rajstan.html" id="csktext">Rajsthan Royals</a>
+
+                        
+                    </div>
+                </div>
+
+                <!-- 8 team -->
+
+
+                <div id="TmRr" class="team"
+                    style="background: linear-gradient(rgb(200, 255, 192),navy);border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="teamsOutline" src="/teamOutline/teamsoutline.png" alt="">
+                    </div>
+                    <div class="textpart">
+
+                        <h4 id="teamsCount"> 10 </h4>
+
+                        <h2 id="csktext">Total teams Count</h2>
+                    </div>
+                </div>
+
+                 <!-- 9 team -->
+
+
+                <div id="TmRr" class="team"
+                    style="background: linear-gradient(rgb(200, 90, 222),rgb(0, 128, 98));border-radius: 10px;">
+                    <div class="logpart">
+                        <img id="teamsOutline" src="/teamOutline/AddTeamOutline.png" alt="">
+                    </div>
+                    <div class="textpart">
+                        <button id="neteam" class="newteam">Add New Team</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+<script src="MensScript.js"></script>
+</body>
+
+</html>

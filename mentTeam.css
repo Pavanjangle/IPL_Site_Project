@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    padding: 0px;
+}
+#search-container {
+    margin-bottom: 10px;
+    margin-top: 35px;
+    margin-left: 650px;
+
+}
+
+#search-input {
+    padding: 10px;
+    border-radius: 15px;
+}
+#search-button{
+    color: #000;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ebdbdb;
+
+}
+
+.TeamMain{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-image: url(bottom-section-bg.svg);
+    background-color: rgb(56, 94, 175);;
+}
+
+    
+.tataSection {
+
+    margin-left: 900px;
+    
+    
+}
+.teamsName{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 90%;
+    margin: 10px auto;
+   
+    row-gap: 20px;
+    column-gap: 10px;
+    
+   
+}
+
+.teamsName div{
+   
+}
+
+
+.team{
+    height:300px;
+    width: 300px;
+    cursor: pointer;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.logpart{
+    width: 100%;
+    height: 150px;
+    
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+}
+
+
+.textpart{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#cskoutlineimg{
+   margin: 30px 90px;
+   
+
+}
+#csktext{
+   
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+   
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+#titleimg{
+    width: 80px;
+    height: 80px;
+    
+    align-self: center;
+}
+#titleYear{
+    color: white;
+    text-align: center;
+}
+#MiOutline{
+    height: 120px;
+    width: 120px;
+    margin: 30px 90px;
+}
+
+#DCoutline{
+    height: 120px;
+    width: 120px;
+    margin: 20px 90px;
+}
+
+#LSGoutline{
+    height: 120px;
+    width: 120px;
+    margin: 30px 90px;
+
+}
+
+#teamsOutline{
+    height: 150px;
+    width: 150px;
+    margin: 10px 80px;
+}
+#teamsCount{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+   
+}
+
+.newteam{
+    height: 50px;
+    width: 60%;
+    align-self: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(15, 11, 4);
+}  
+.newteam:hover{
+    background-color: green;
+}  
+   
+ 
